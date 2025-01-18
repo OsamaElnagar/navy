@@ -1,0 +1,179 @@
+API: friendships/11
+Response: 
+{
+    "response_code": "default_200",
+    "message": "Successfully data fetched",
+    "content": [
+        {
+            "id": 10,
+            "name": "Navy 1",
+            "avatar": "http://navy-system.test/storage/users/avatars/Hu76iEL7O5EKZTfVHkkEU7gXkCdRThrVdx54mcvm.jpg",
+            "accepted_at": "2 days ago",
+            "requested_at": "2 days ago"
+        },
+        {
+            "id": 12,
+            "name": "Navy 3",
+            "avatar": "http://navy-system.test/storage/users/avatars/iRwtvq5dDE83XAN4aiWFWs0N4qsQGS5ukt0V4p6o.jpg",
+            "accepted_at": "yesterday",
+            "requested_at": "yesterday"
+        },
+        {
+            "id": 13,
+            "name": "Osama",
+            "avatar": "http://navy-system.test/storage/users/avatars/OBeO3OmhI0Aebp6coM4srDKfBFqTNVJFyFxRH0qc.jpg",
+            "accepted_at": "yesterday",
+            "requested_at": "yesterday"
+        }
+    ],
+    "errors": [],
+    "pagination": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 3
+    }
+}
+
+///////****************///////////////
+
+API: friendships/send
+Response if already friends: 
+{
+    "response_code": "default_400",
+    "message": "invalid or missing information",
+    "content": null,
+    "errors": [
+        "You are already friends."
+    ],
+    "pagination": []
+}
+
+
+Response if already requested: 
+{
+    "response_code": "default_400",
+    "message": "invalid or missing information",
+    "content": null,
+    "errors": [
+        "You are already friends."
+    ],
+    "pagination": []
+}
+
+Response if sent Successfully: 
+{
+    "response_code": "default_201",
+    "message": "Successfully created",
+    "content": {
+        "message": "Friend request sent to Osama",
+        "receiver": {
+            "id": 13,
+            "username": "osama",
+            "email": "osamaelngar98@gmail.com",
+            "name": "Osama",
+            "bio": null,
+            "avatar": "users/avatars/OBeO3OmhI0Aebp6coM4srDKfBFqTNVJFyFxRH0qc.jpg",
+            "location": null,
+            "website": null,
+            "phone": "+201094157080",
+            "date_of_birth": null,
+            "is_verified": false,
+            "created_at": "2024-12-26T11:48:05.000000Z",
+            "updated_at": "2024-12-26T11:48:05.000000Z"
+        }
+    },
+    "errors": [],
+    "pagination": []
+}
+
+///////****************///////////////
+API: friendships/accept
+Response: 
+{
+    "response_code": "default_200",
+    "message": "Successfully data fetched",
+    "content": {
+        "message": "Friend request accepted."
+    },
+    "errors": [],
+    "pagination": []
+}
+
+///////****************///////////////
+
+API: friendships/reject
+Response: 
+{
+    "response_code": "default_200",
+    "message": "Successfully data fetched",
+    "content": {
+        "message": "Friend request rejected."
+    },
+    "errors": [],
+    "pagination": []
+}
+
+///////****************///////////////
+API: friendships/cancel
+Response: 
+{
+    "response_code": "default_200",
+    "message": "Successfully data fetched",
+    "content": {
+        "message": "Friend request cancelled."
+    },
+    "errors": [],
+    "pagination": []
+}
+///////****************///////////////
+
+API: friendships/12/requests
+Response: 
+{
+    "response_code": "default_200",
+    "message": "Successfully data fetched",
+    "content": [
+        {
+            "id": 11,
+            "name": "Navy 2",
+            "avatar": "http://navy-system.test/storage/users/avatars/iJCjSuGM3Z22gwykYDIiGLlZiSLVYavPXxV28PAV.webp",
+            "accepted_at": "",
+            "requested_at": "1 minute ago"
+        },
+        {
+            "id": 10,
+            "name": "Navy 1",
+            "avatar": "http://navy-system.test/storage/users/avatars/Hu76iEL7O5EKZTfVHkkEU7gXkCdRThrVdx54mcvm.jpg",
+            "accepted_at": "",
+            "requested_at": "18 seconds ago"
+        }
+    ],
+    "errors": [],
+    "pagination": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 2
+    }
+}
+///////****************///////////////
+
+API: friendships/unfriend
+Response: 
+
+{
+    "response_code": "default_200",
+    "message": "Successfully data fetched",
+    "content": {
+        "message": "Friend removed."
+    },
+    "errors": [],
+    "pagination": []
+}
+///////****************///////////////
+
+ {        
+  "status": "pending",
+  "type": "receiver",
+ }

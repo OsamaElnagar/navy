@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "139069549195",
+    "project_id": "navy-d66c8",
+    "storage_bucket": "navy-d66c8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139069549195:android:144a9860d9d9df5cc0c28e",
+        "android_client_info": {
+          "package_name": "com.example.navy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYqojMMhtxVfu927-s3UYHwNLkxy4Em0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

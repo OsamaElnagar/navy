@@ -1,0 +1,98 @@
+{
+    "response_code": "default_200",
+    "message": "Successfully data fetched",
+    "content": [
+        {
+            "id": 5,
+            "chat_id": 4,
+            "content": "oho",
+            "type": "text",
+            "media": null,
+            "metadata": [],
+            "created_at": "2025-01-05T14:56:07.000000Z",
+            "updated_at": "2025-01-05T14:56:07.000000Z",
+            "sender": {
+                "id": 11,
+                "name": "Navy 2",
+                "avatar": "http://192.168.1.4:8000/storage/users/avatars/iJCjSuGM3Z22gwykYDIiGLlZiSLVYavPXxV28PAV.webp"
+            },
+            "reactions": [],
+            "self_reaction": null
+        },
+        {
+            "id": 4,
+            "chat_id": 4,
+            "content": "what!?",
+            "type": "text",
+            "media": null,
+            "metadata": [],
+            "created_at": "2025-01-05T10:59:01.000000Z",
+            "updated_at": "2025-01-05T10:59:01.000000Z",
+            "sender": {
+                "id": 11,
+                "name": "Navy 2",
+                "avatar": "http://192.168.1.4:8000/storage/users/avatars/iJCjSuGM3Z22gwykYDIiGLlZiSLVYavPXxV28PAV.webp"
+            },
+            "reactions": [],
+            "self_reaction": null
+        },
+        {
+            "id": 3,
+            "chat_id": 4,
+            "content": "hey",
+            "type": "text",
+            "media": null,
+            "metadata": [],
+            "created_at": "2025-01-05T10:48:48.000000Z",
+            "updated_at": "2025-01-05T10:48:48.000000Z",
+            "sender": {
+                "id": 10,
+                "name": "Navy 1",
+                "avatar": "http://192.168.1.4:8000/storage/users/avatars/Hu76iEL7O5EKZTfVHkkEU7gXkCdRThrVdx54mcvm.jpg"
+            },
+            "reactions": [],
+            "self_reaction": null
+        },
+        {
+            "id": 2,
+            "chat_id": 4,
+            "content": "Alhamdulillah👍❤️",
+            "type": "text",
+            "media": null,
+            "metadata": [],
+            "created_at": "2025-01-04T17:46:25.000000Z",
+            "updated_at": "2025-01-04T17:46:25.000000Z",
+            "sender": {
+                "id": 11,
+                "name": "Navy 2",
+                "avatar": "http://192.168.1.4:8000/storage/users/avatars/iJCjSuGM3Z22gwykYDIiGLlZiSLVYavPXxV28PAV.webp"
+            },
+            "reactions": [],
+            "self_reaction": null
+        },
+        {
+            "id": 1,
+            "chat_id": 4,
+            "content": "Hey! How's it going?",
+            "type": "text",
+            "media": null,
+            "metadata": [],
+            "created_at": "2025-01-04T17:42:47.000000Z",
+            "updated_at": "2025-01-04T17:42:47.000000Z",
+            "sender": {
+                "id": 10,
+                "name": "Navy 1",
+                "avatar": "http://192.168.1.4:8000/storage/users/avatars/Hu76iEL7O5EKZTfVHkkEU7gXkCdRThrVdx54mcvm.jpg"
+            },
+            "reactions": [],
+            "self_reaction": null
+        }
+    ],
+    "errors": [],
+    "pagination": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 5
+    }
+}
