@@ -2,9 +2,38 @@
 
 A modern social media platform built with Flutter, featuring real-time interactions, video sharing, and a sleek user interface.
 
-![Navy App Preview](preview/Navy%20Final%20Preview%20.mp4)
+![Navy App Preview](https://github.dev/OsamaElnagar/navy/blob/main/preview/Navy%20Final%20Preview%20.mp4)
 
-##### see some images in `preview` folder
+## App Screenshots
+
+<div align="center">
+  <h3>Core Screens</h3>
+  <p float="left">
+    <img src="preview/splash.png" width="200" alt="Splash Screen"/>
+    <img src="preview/profile.jpg" width="200" alt="Profile Screen"/>
+    <img src="preview/feeds.jpg" width="200" alt="Feed Screen"/>
+  </p>
+
+  <h3>Social Features</h3>
+  <p float="left">
+    <img src="preview/chat room.jpg" width="200" alt="Chat Room"/>
+    <img src="preview/chats lst.jpg" width="200" alt="Chats List"/>
+    <img src="preview/reels overlay.jpg" width="200" alt="Reels"/>
+  </p>
+
+  <h3>Interactive Elements</h3>
+  <p float="left">
+    <img src="preview/create post sheet.png" width="200" alt="Create Post"/>
+    <img src="preview/profile actions button.png" width="200" alt="Profile Actions"/>
+    <img src="preview/update profile.jpg" width="200" alt="Update Profile"/>
+  </p>
+
+  <h3>Loading States</h3>
+  <p float="left">
+    <img src="preview/feed loading shimmer.png" width="200" alt="Loading State"/>
+    <img src="preview/feeds no internet.png" width="200" alt="No Internet State"/>
+  </p>
+</div>
 
 ## Features
 
