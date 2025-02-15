@@ -1,7 +1,17 @@
 # Navy - Social Media Application
 
-A modern social media platform built with Flutter, featuring real-time interactions, video sharing, and a sleek user interface.
 
+<div align="center">
+  <h1>🛍️ Navy</h1>
+  <p>A modern social media platform, featuring real-time interactions, video sharing, and a sleek user interface. Built with Flutter & Laravel</p>
+  
+  [![Flutter](https://img.shields.io/badge/Flutter-3.6+-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
+  [![Dart](https://img.shields.io/badge/Dart-3.6+-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+  [![Laravel](https://img.shields.io/badge/Laravel-11.0+-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com/)
+  [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+  [![GetX](https://img.shields.io/badge/GetX-State_Management-purple?style=for-the-badge)](https://pub.dev/packages/get)
+  [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
+</div>
 [Navy App Preview](https://github.dev/OsamaElnagar/navy/blob/main/preview/Navy%20Final%20Preview%20.mp4)
 
 ## App Screenshots
