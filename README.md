@@ -2,7 +2,7 @@
 
 A modern social media platform built with Flutter, featuring real-time interactions, video sharing, and a sleek user interface.
 
-![Navy App Preview](https://github.dev/OsamaElnagar/navy/blob/main/preview/Navy%20Final%20Preview%20.mp4)
+[Navy App Preview](https://github.dev/OsamaElnagar/navy/blob/main/preview/Navy%20Final%20Preview%20.mp4)
 
 ## App Screenshots
 
